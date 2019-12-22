@@ -1,0 +1,11 @@
+username = "cengizkorkut"
+password = "1234"
+usernm = input("Kullanıcı Adını Giriniz >> :")
+if usernm == username:
+    print("Kullanıcı Adınızı Doğru Girdiniz")
+    passwd = input("Şifrenizi Giriniz >> :")
+    if passwd == password:
+        print("Şifreniz Doğru ")
+        print ("Hoşgeldin",username)
+else:
+    print("Kullanıcı Adınız Yanlış")
